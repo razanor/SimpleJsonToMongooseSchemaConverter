@@ -1,0 +1,4 @@
+{
+    "jsonSchema": "JsonSchema.json",
+    "mongooseSchema": "MongooseSchema.js"
+}

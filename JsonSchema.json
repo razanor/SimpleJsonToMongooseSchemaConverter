@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "User",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "surname": {
+            "type": "string"
+        },
+        "address": {
+            "type": "object",
+            "properties": {
+                "number": {
+                    "type": "string"
+                },
+                "test": {
+                    "type": "object",
+                    "properties": {
+                        "test1": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "hobbies": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}
